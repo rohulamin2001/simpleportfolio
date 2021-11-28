@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.first-section{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.565),rgba(0, 0, 0, 0.565)),url('image/man1.jpg') no-repeat fixed;
+    display: flex;
+    display: grid;
+    place-items: center;
+}
+.my-header{
+}
+.nav-link-item:hover{
+    color: rgb(184, 7, 7) !important;
+    transition: .5s;
+}
+
+.my-name{
+    font-weight: 500;
+    font-size: 64px;
+    font-family:satisfy;
+}
+
+.second-section{
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+
+.arrow-btn {
+
+    font-size: 30px;
+}
+
+.list-item{
+    margin: 10px 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.third-section{
+    width: 100%;
+    height: 100%;
+    background: rgb(187, 186, 187);
+    margin-top:20vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.661),rgba(0, 0, 0, 0.661)),url('image/corporate.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.skill{
+  font-weight: 700;
+}
+
+.container1 {
+  font: 1px;
+  padding: 0 20px;
+}
+
+.advanced {
+  width: 100px;
+  position: absolute;
+  top: 24px;
+  right: -14px;
+  transform: rotate(45deg);
+  z-index:0;
+  font-size: 14px;
+  padding: 1px 0 3px 0;
+  background: #ffb727;
+  color: #fff;
+}
+
+.fifth-section{
+  background: radial-gradient(circle, rgba(255,255,255,1) 30%, rgba(242,242,242,1) 30%, rgba(255,255,255,1) 70%, rgba(235,235,235,1) 70%);
+  height: 100%;
+}
+
+.icon-div{
+  width: 5em;
+  height: 5em;
+  border: 1px solid brown;
+  padding: 20px;
+}
+
+.card>h4{
+  font-weight: 700;
+}
+
+.bg-brown{
+  color: brown;
+}
+
+.hover-effect:hover{
+
+  border: 1px solid brown;
+  transition: .5s;
+
+}
+
+.hover-effect:hover .icon-div{
+  border: 1px solid black;
+}
+
+.hover-effect:hover .icon-div>
+.icon{
+  transition: .5s;
+  color:brown;
+}
+
+.hover-effect:hover .text-style>.service-card-title{
+  color: brown;
+  transition: .5s;
+}
+
+.hover-effect:hover .icon-div>{
+  color: #ffb727;
+}
+
+.section-six{
+  background: linear-gradient(90deg, rgba(235,235,235,1) 29%, rgba(255,255,255,1) 29%, rgba(255,255,255,1) 71%, rgba(235,235,235,1) 71%);
+  height: 100%;
+  
+}
+.section-seven{
+width: 100%;
+height: 100%;
+}
+
+.section-eight{
+  height: 100%;
+}
+
+.avatar {
+  min-width: 300px;
+  min-height: 300px;
+  position: relative;
+  border-radius: 100%;
+}
+
+.avatar .image {
+  width: 10em;
+  height: 10em;
+  animation: morph 8s ease-in-out 1s infinite;
+  background-blend-mode: multiply;
+  box-shadow: inset 0 0 0 9px hsla(0,0%,100%,.3);
+  border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  overflow: hidden;
+}
+
+
+
+  
+
+  /*** RADIAL PROGRESS ***/
+  svg.radial-progress {
+    height: auto;
+    max-width: 200px;
+    padding: 1em;
+    transform: rotate(-90deg);
+    width: 100%;
+  }
+  
+  svg.radial-progress circle {
+    fill: rgba(241, 23, 23, 0);
+    stroke: #fff;
+    stroke-dashoffset: 219.91148575129; /* Circumference */
+    stroke-width: 10;
+  }
+  
+  svg.radial-progress circle.incomplete { opacity: 0.25; }
+  
+  svg.radial-progress circle.complete { stroke-dasharray: 219.91148575129; /* Circumference */ }
+  
+  svg.radial-progress text {
+    fill: rgb(255, 255, 255);
+    font: 400 1em/1 'Oswald', sans-serif;
+    text-anchor: middle;
+  }
+  
+  /*** COLORS ***/
+  /* Primary */
+  
+  svg.radial-progress:nth-of-type(6n+1) circle { stroke: rgb(184, 7, 7); }
+  
+  /* Scondary */
+
+.fourth-section{
+    height: 100vh;
+}
+
